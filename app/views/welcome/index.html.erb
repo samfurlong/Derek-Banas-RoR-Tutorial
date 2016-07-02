@@ -1,0 +1,14 @@
+<h1>Welcome#index</h1>
+<p>Find me in app/views/welcome/index.html.erb</p>
+
+<% if(@id && @random) %>
+  <%= "Id: #{@id}" %> <br>
+  <%= "Random: #{@random}" %> <br>
+<% end %>
+
+<%= 'count to 10' %>
+
+<br>
+<% 11.times do |i| %>
+  <%= i %>
+<% end %>
